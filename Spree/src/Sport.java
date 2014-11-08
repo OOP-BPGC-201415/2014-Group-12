@@ -6,6 +6,7 @@ public class Sport extends Event {
 	private ArrayList<Team> teams;
 	private Rule rules;
 	private int rounds;
+	
 	public String getSportName() {
 		return sportName;
 	}
@@ -30,5 +31,5 @@ public class Sport extends Event {
 	public void setRounds(int rounds) {
 		this.rounds = rounds;
 	}
-
+	
 }

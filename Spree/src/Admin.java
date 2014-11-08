@@ -17,7 +17,7 @@ public class Admin extends Login {
 		throw new UnsupportedOperationException();
 	}
 
-	public void updateScores(Sport sport, String score) {
+	public void updateScores(Fixture fixture, String score) {
 		// TODO - implement Admin.updateScores
 		throw new UnsupportedOperationException();
 	}

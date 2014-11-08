@@ -8,7 +8,12 @@ public class Team {
 	private String teamName;
 	private String collegeName;
 
-	public void updatePlayers() {
+	public void addParticipant(Participant participant) {
+		// TODO - implement Team.updatePlayers
+		throw new UnsupportedOperationException();
+	}
+	
+	public void removeParticipant(Participant participant) {
 		// TODO - implement Team.updatePlayers
 		throw new UnsupportedOperationException();
 	}

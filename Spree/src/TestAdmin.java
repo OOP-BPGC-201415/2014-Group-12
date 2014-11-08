@@ -32,17 +32,23 @@ public class TestAdmin extends TestCase{
 
 	@Test
 	public void testSetRules() {
-		fail("Not yet implemented");
+		Rule rule = new Rule();
+		admin.setRules(sport, rule);
+		assertEquals(sport.getRules(), rule);
 	}
 
 	@Test
 	public void testUpdateScores() {
-		fail("Not yet implemented");
+		Fixture fixture = new Fixture();
+		admin.updateScores(fixture, "score");
+		assertEquals(fixture.getScore(), "score");
 	}
 
 	@Test
 	public void testUpdateFixtures() {
-		fail("Not yet implemented");
+		Fixture fixture = new Fixture();
+		sport.addFixture(fixture);
+		assert(sport.getFixture().contains(fixture));
 	}
 
 }

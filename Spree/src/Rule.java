@@ -1,4 +1,11 @@
 public class Rule {
+	
+	private short age;
+	private short minNoOfPlayers;
+	private short maxNoOfPlayers;
+	private short minNoOfTeams;
+	private short maxNoOfTeams;
+	private String rulesDescription;
 
 	public short getAge() {
 		return age;
@@ -36,11 +43,5 @@ public class Rule {
 	public void setRulesDescription(String rulesDescription) {
 		this.rulesDescription = rulesDescription;
 	}
-	private short age;
-	private short minNoOfPlayers;
-	private short maxNoOfPlayers;
-	private short minNoOfTeams;
-	private short maxNoOfTeams;
-	private String rulesDescription;
 
 }

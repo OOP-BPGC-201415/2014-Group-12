@@ -14,7 +14,7 @@ public class Participant extends Login {
 		throw new UnsupportedOperationException();
 	}
 
-	public void getReminders() {
+	public String getReminders() {
 		// TODO - implement Participant.getReminders
 		throw new UnsupportedOperationException();
 	}

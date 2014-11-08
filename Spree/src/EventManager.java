@@ -3,7 +3,7 @@ public class EventManager extends Login{
 	private String name;
 	private Sport sport;
 
-	public void updateScores(String score) {
+	public void updateScores(Fixture fixture, String score) {
 		// TODO - implement EventManager.updateScores
 		// update score of the EM's sport
 		throw new UnsupportedOperationException();

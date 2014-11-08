@@ -2,9 +2,14 @@ import java.util.ArrayList;
 
 public class Event {
 
-	private ArrayList<Fixture> fixture;
-	private int registrationFee;
-	private EventManager eventHead;
+	protected ArrayList<Fixture> fixture;
+	protected int registrationFee;
+	protected EventManager eventHead;
+	
+	public void addFixture(Fixture fixture) {
+		this.fixture.add(fixture);
+	}
+	
 	public ArrayList<Fixture> getFixture() {
 		return fixture;
 	}
