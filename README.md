@@ -13,9 +13,6 @@ Project Members
 **Description about the App:**
 Spree Management System The Web App is a extensive management system for organizing Spree. The app provides user a variety of tools to keep up with the current happenings during the sport events.The user can register for a event,get updates,scores and fixtures on the go. Participant can also keep a track of their fixtures and also will receive reminders. Event managers can also update the results & fixtures of the event at ease.
 
-More specifically, this application is designed to follow you favourite sport events and access scores and fixtures on the go. Participants can access fixtures and find their way around the campus using the GPS maps provided by the app. They can also set reminders for their matches and register for events with much ease.
-
-The app will be built on a stand-alone JSP server for maintaining the database and getting live updates and scores and will comprise of two modules i.e., Pre-Spree and Spree under the same packaging and will have two separate interfaces. The main interface will comprise of a news timeline displaying the latest score updates and results. The options for the user will be displayed in the navigation bar. The user can access the various features by clicking on the navigation bar. The participant can login to access his fixtures and set reminders for the same. He/she can also bet on his/her team for a particular match. Apart from these he/she can register for the Informal Events and the Pro-Nights. The Admin directly interacts with the database and makes changes in the score and results section so that the users can catch the scores on the go.
 
 **Contents of the Repositiory**
 
