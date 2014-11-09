@@ -81,3 +81,5 @@ In this folder the various UML diagrams are made available. Uploaded are the fol
 
 *2. Sequence Diagrams for Admin, Login and Registration*
 
+*3. Package Diagram*
+
