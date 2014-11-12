@@ -5,7 +5,7 @@ Project Members
 *Mandar Gogate*
 *MS Suraj*
 *Yash Kasture*
-*Gauri Pardeep*
+*Gauri Kholkar*
 *Sai Krishna*
 *Manoj Chandra*
 *Sudhindra Sajjalguddam*
