@@ -41,6 +41,6 @@ The classes are:
 
 Work to be completed
 --------------------
-Complete integration with spring mvc framework. The spring mvc related files (work in progress) are available in the 'war' directory of Spree main directory - https://github.com/mssurajkaiga/oop-group-12/tree/master/Spree/war
+Complete integration with spring mvc framework. The current snapshot is available in 'Submission-3' directory. The spring mvc related files (work in progress version) are available in the 'war' directory of Spree main directory - https://github.com/mssurajkaiga/oop-group-12/tree/master/Spree/war
 Requires following libraries - spring web mvc framework, Apache tomcat7 or compatible server, Apache commons logging
 
