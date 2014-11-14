@@ -41,7 +41,7 @@ Following classes & JUnit tests are incomplete:
 
 3. TestLogin.java
 
-4. TestUser.javas	
+4. TestUser.java	
 
 Work to be completed
 --------------------
