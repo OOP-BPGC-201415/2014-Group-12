@@ -38,3 +38,9 @@ The classes are:
 17. TestTeam.java	
 
 18. User.java
+
+Work to be completed
+--------------------
+Complete integration with spring mvc framework. The spring mvc related files (work in progress) are available in the 'war' directory of Spree main directory - https://github.com/mssurajkaiga/oop-group-12/tree/master/Spree/war
+Requires following libraries - spring web mvc framework, Apache tomcat7 or compatible server, Apache commons logging
+

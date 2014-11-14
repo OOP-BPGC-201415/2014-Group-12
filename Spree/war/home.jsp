@@ -1,12 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spree 2015 - Home</title>
+<html lang="en-IN"><link href = "images/spree.png" rel="icon" type="image/gif">
+<head><title>
+	Spree 2015 </title>
+
+<link rel="stylesheet" href="css/sheet1.css">
+
 </head>
+<div id='cssmenu'>
 <body>
-<p> Home Page </p>
-</body>
-</html>
+	<style>
+body {
+    background-image: url("images/bg1.jpg");
+}
+</style>
+	<ul>
+  <li><a href="home.jsp"><font color= "#666666">Home</font></a></li>
+  <li><a href="news.jsp">News</a></li>
+  <li><a href="events.jsp">Events</a></li>
+  <li><a href="teams.jsp">Teams</a></li>
+  <li><a href="live.jsp">Live</a></li>
+  <li><a href="fixtures.jsp">Fixtures</a></li>
+  <li><a href="results.jsp">Results</a></li>
+  <li><a href="photos.jsp">Photos</a></li>
+  <li><a href="videos.jsp">Videos</a></li> 
+  <li><a href="pointstable.jsp">Points Table</a></li>
+  <li><a href="login.jsp">Login</a></li>
+  <li><a href="register.jsp">Register</a></li>
+  <li><a href="https://www.facebook.com/bitsspree">Follow us</a></li>
+  <li><a href="about.jsp">About</a></li>
+  
+</ul>
+</div>
