@@ -15,10 +15,10 @@ public class TestAdmin extends TestCase{
 		sport = createNiceMock(Sport.class);
 	}
 	
-	@Test
-	public void testCheckNewRegistrations() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	public void testCheckNewRegistrations() {
+//		fail("Not yet implemented");
+//	}
 
 	@Test
 	public void testUpdateFinance() {
@@ -32,21 +32,23 @@ public class TestAdmin extends TestCase{
 
 	@Test
 	public void testSetRules() {
-		Rule rule = new Rule();
-		admin.setRules(sport, rule);
-		assertEquals(sport.getRules(), rule);
+		Admin a = new Admin("abc", "abc", null);
+		Rule rule = new Rule(25,2,15,2,16,"Descriptions");
+		Sport s = new Sport(null, 20, null, "Football", null, null);
+		a.setRules(s, rule);
+		assertTrue(s.getRules().equals(rule));
 	}
 
 	@Test
 	public void testUpdateScores() {
-		Fixture fixture = new Fixture();
+		Fixture fixture = new Fixture("BITS",null,null,null,"result","score");
 		admin.updateScores(fixture, "score");
 		assertEquals(fixture.getScore(), "score");
 	}
 
 	@Test
 	public void testUpdateFixtures() {
-		Fixture fixture = new Fixture();
+		Fixture fixture = new Fixture("BITS",null,null,null,"result","score");
 		sport.addFixture(fixture);
 		assert(sport.getFixture().contains(fixture));
 	}

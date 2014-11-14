@@ -2,6 +2,15 @@ import java.util.ArrayList;
 
 public class Sport extends Event {
 
+	public Sport(ArrayList<Fixture> fixture, int registrationFee,
+			EventManager eventHead, String sportName, ArrayList<Team> teams,
+			Rule rules) {
+		super(fixture, registrationFee, eventHead);
+		this.sportName = sportName;
+		this.teams = teams;
+		this.rules = rules;
+		this.rounds = 1;
+	}
 	private String sportName;
 	private ArrayList<Team> teams;
 	private Rule rules;
@@ -31,5 +40,9 @@ public class Sport extends Event {
 	public void setRounds(int rounds) {
 		this.rounds = rounds;
 	}
-	
+//	public static void main(String[] args){
+//		Rule newRule = new Rule(20, 1, 10, 2, 16, "Description");
+//		Sport cricket = new Sport("Cricket", null, newRule);
+//		System.out.println(cricket.getSportName());
+//	}
 }

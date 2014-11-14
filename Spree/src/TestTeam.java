@@ -1,29 +1,30 @@
-import junit.framework.TestCase;
+import java.util.ArrayList;
 
-import org.junit.Test;
+import junit.framework.TestCase;
 
 
 public class TestTeam extends TestCase {
 	
 	Team team;
 
-	@Override
 	public void setUp() {
-		team = new Team();
+		ArrayList<Participant> f = new ArrayList<Participant>();
+		team = new Team(f,null,null,"MI","Bits");
 	}
 
-	@Test
 	public void testUpdateParticipants() {
-		Participant p = new Participant();
+		Participant p;
+	
+		p = new Participant(null,null,null,null,null,null,null);
 		team.addParticipant(p);
-		assert(team.getParticipants().contains(p));
+		assertTrue(team.getParticipants().contains(p));
 		team.removeParticipant(p);
-		assert(!team.getParticipants().contains(p));
+		assertFalse(team.getParticipants().contains(p));
 	}
 
-	@Test
-	public void testUpdateStatistics() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	public void testUpdateStatistics() {
+//		fail("Not yet implemented");
+//	}
 
 }

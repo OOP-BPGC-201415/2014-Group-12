@@ -2,5 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="F:/BITS 3-1/OOP/oop-group-12/Spree/libs/easymock-3.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/workspace_eclipse/cglib-nodep-2.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace_eclipse/objenesis-1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

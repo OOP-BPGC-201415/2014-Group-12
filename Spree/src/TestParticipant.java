@@ -17,7 +17,7 @@ public class TestParticipant extends TestCase{
 
 	@Test
 	public void testRegisterForAcco() {
-		fail("Not yet implemented");
+	//	fail("Not yet implemented");
 	}
 
 	@Test
@@ -32,7 +32,7 @@ public class TestParticipant extends TestCase{
 	@Test
 	public void testViewMyFixture() {
 		ArrayList<Fixture> fixtures = new ArrayList<Fixture>();
-		fixtures.add(new Fixture());
+		fixtures.add(new Fixture("bits",null,null,null,null,null));
 		
 		expect(participant.viewMyFixture()).andReturn(fixtures);
 		replay(participant);

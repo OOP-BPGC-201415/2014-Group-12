@@ -1,17 +1,21 @@
 public class EventManager extends Login{
 
+	public EventManager(String username, String password_hash, String name,
+			Sport sport) {
+		super(username, password_hash);
+		this.name = name;
+		this.sport = sport;
+	}
+
 	private String name;
 	private Sport sport;
 
 	public void updateScores(Fixture fixture, String score) {
-		// TODO - implement EventManager.updateScores
-		// update score of the EM's sport
-		throw new UnsupportedOperationException();
+		fixture.setScore(score);
 	}
 
-	public void updateFixture(Fixture fixtures) {
-		// TODO - implement EventManager.updateFixture
-		throw new UnsupportedOperationException();
+	public void updateFixture(Fixture fixture) {
+		sport.addFixture(fixture);
 	}
 
 	public String getName() {

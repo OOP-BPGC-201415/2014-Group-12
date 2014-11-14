@@ -1,10 +1,15 @@
 public class Login {
+	public Login(String username, String password_hash) {
+		this.username = username;
+		this.password_hash = password_hash;
+	}
+
 	private String username;
 	private String password_hash;
 
-	public boolean verifyLogin() {
-		// TODO - implement Login.verifyLogin
-		throw new UnsupportedOperationException();
+	public static boolean verifyLogin(String username,String password) {
+		boolean v = false;
+		return v;
 	}
 	public String getUsername() {
 		return username;

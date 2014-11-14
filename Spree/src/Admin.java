@@ -2,37 +2,41 @@ public class Admin extends Login {
 
 	private Finance account;
 
-	public void checkNewRegistrations() {
-		// TODO - implement Admin.checkNewRegistrations
-		throw new UnsupportedOperationException();
+//	public void checkNewRegistrations() {
+//	}
+
+	public Admin(String username, String password_hash, Finance account) {
+		super(username, password_hash);
+		this.account = account;
 	}
 
 	public float updateFinance(float amount) {
-		// TODO - implement Admin.updateFinance
-		throw new UnsupportedOperationException();
+		account.addBalance(amount);
+		return account.getBalance();
 	}
 
 	public void setRules(Sport sport, Rule rules) {
-		// TODO - implement Admin.setRules
-		throw new UnsupportedOperationException();
+		sport.setRules(rules);
 	}
 
 	public void updateScores(Fixture fixture, String score) {
-		// TODO - implement Admin.updateScores
-		throw new UnsupportedOperationException();
+		fixture.setScore(score);
 	}
 
 	public void updateFixture(Sport sport, Fixture fixture) {
-		// TODO - implement Admin.updateFixture
-		throw new UnsupportedOperationException();
+		sport.addFixture(fixture);
 	}
-
-	/**
-	 * @return the account
-	 */
 	public Finance getAccount() {
 		return account;
 	}
-
-
+	public float getBalance() {
+		return account.getBalance();
+	}
+//	public static void main(String ... args){
+//		Admin a = new Admin("abc", "abc", null);
+//		Rule rule = new Rule(25,2,15,2,16,"Descriptions");
+//		Sport s = new Sport(null, 20, null, "Football", null, null);
+//		a.setRules(s, rule);
+//		System.out.println((s.getRules().equals(rule))); 
+//	}
 }

@@ -2,6 +2,17 @@ import java.util.ArrayList;
 
 public class Participant extends Login {
 
+	public Participant(String username, String password_hash,
+			StudentDetail details, Event event, Team team,
+			ArrayList<Fixture> fixtures, Boolean isCaptain) {
+		super(username, password_hash);
+		this.details = details;
+		this.event = event;
+		this.team = team;
+		this.fixtures = fixtures;
+		this.isCaptain = isCaptain;
+	}
+
 	private StudentDetail details;
 	private Event event;
 	private Team team;
@@ -9,19 +20,16 @@ public class Participant extends Login {
 	private Boolean isCaptain;
 
 	public boolean registerForAcco() {
-		// TODO - implement Participant.registerForAcco
-		// returns if registration was successful or not
-		throw new UnsupportedOperationException();
+		return false;
 	}
 
 	public String getReminders() {
-		// TODO - implement Participant.getReminders
-		throw new UnsupportedOperationException();
+		return null;
+		
 	}
 
 	public ArrayList<Fixture> viewMyFixture() {
-		// TODO - implement Participant.viewMyFixture
-		throw new UnsupportedOperationException();
+		return this.getFixtures();
 	}
 
 	public StudentDetail getDetails() {
@@ -63,6 +71,9 @@ public class Participant extends Login {
 	public ArrayList<Fixture> getFixtures() {
 		return fixtures;
 	}
-
+//	public static void main(String ...strings ){
+//		StudentDetail s = new StudentDetail("Mandar", "749", "BITS", "abc");
+//		//Participant p = new Participant("a", "b", s, event, team, fixtures, isCaptain)
+//	}
 	
 }

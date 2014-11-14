@@ -1,6 +1,13 @@
-public class InformalEvent extends Event {
+import java.util.ArrayList;
 
+public class InformalEvent extends Event {
 	private String eventName;
+	public InformalEvent(ArrayList<Fixture> fixture, int registrationFee,
+			EventManager eventHead, String eventName) {
+		super(fixture, registrationFee, eventHead);
+		this.eventName = eventName;
+	}
+
 
 	public String getEventName() {
 		return eventName;

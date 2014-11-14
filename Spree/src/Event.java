@@ -2,6 +2,13 @@ import java.util.ArrayList;
 
 public class Event {
 
+	public Event(ArrayList<Fixture> fixture, int registrationFee,
+			EventManager eventHead) {
+		super();
+		this.fixture = fixture;
+		this.registrationFee = registrationFee;
+		this.eventHead = eventHead;
+	}
 	protected ArrayList<Fixture> fixture;
 	protected int registrationFee;
 	protected EventManager eventHead;

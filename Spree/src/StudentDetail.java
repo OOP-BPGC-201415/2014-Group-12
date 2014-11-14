@@ -4,6 +4,14 @@ public class StudentDetail {
 	private String studentID;
 	private String collegeName;
 	private String email;
+	public StudentDetail(String studentName, String studentID,
+			String collegeName, String email) {
+		super();
+		this.studentName = studentName;
+		this.studentID = studentID;
+		this.collegeName = collegeName;
+		this.email = email;
+	}
 	public String getStudentName() {
 		return studentName;
 	}

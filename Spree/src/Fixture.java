@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Fixture {
-
 	private String location;
 	private Date date;
 	private Sport sport;
@@ -10,14 +9,18 @@ public class Fixture {
 	private String result;
 	private String score;
 
+	public Fixture(String location, Date date, Sport sport,
+			ArrayList<Team> teams, String result, String score) {
+		this.location = location;
+		this.date = date;
+		this.sport = sport;
+		this.teams = teams;
+		this.result = result;
+		this.score = score;
+	}
 	public Date getDate() {
 		return this.date;
 	}
-
-	/**
-	 * 
-	 * @param date
-	 */
 	public void setDate(Date date) {
 		this.date = date;
 	}
@@ -25,11 +28,6 @@ public class Fixture {
 	public String getLocation() {
 		return this.location;
 	}
-
-	/**
-	 * 
-	 * @param location
-	 */
 	public void setLocation(String location) {
 		this.location = location;
 	}
@@ -65,6 +63,12 @@ public class Fixture {
 	public void setScore(String score) {
 		this.score = score;
 	}
-	
+//	public static void main(String...args){
+//		Date d = new Date(12, 2, 2044);
+//		EventManager eventHead = null;
+//		Sport s = new Sport(null, 0, eventHead, "MI", null, null);
+//		Fixture f = new Fixture("abc",d ,s, null, "", null);
+//		System.out.println(f.getDate());
+//	}
 
 }
