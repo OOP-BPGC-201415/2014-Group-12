@@ -1,7 +1,7 @@
-Readme for Submissions
+Readme for Submission-3
 ----------------------
-The following folder contains the class files and the unit test for the following classes including all of it's methods.
-The classes are:
+The src folder contains the class files and the unit test for the following classes including all of it's methods.
+The completed classes are:
 
 1. Admin.java
 
@@ -15,29 +15,33 @@ The classes are:
 
 6. InformalEvent.java	
 
-7. Login.java
+7. Participant.java	
 
-8. Participant.java	
+8. Rule.java	
 
-9. Rule.java	
+9. Sport.java	
 
-10. Sport.java	
+10. StudentDetail.java
 
-11. StudentDetail.java
+11. Team.java
 
-12. Team.java
+12. TestAdmin.java
 
-13. TestAdmin.java
+13. TestEventManager.java	
 
-14. TestEventManager.java	
+14. TestParticipant.java	
 
-15. TestLogin.java	
+15. TestTeam.java	
 
-16. TestParticipant.java	
+Following classes & JUnit tests are incomplete:
 
-17. TestTeam.java	
+1. User.java
 
-18. User.java
+2. Login.java
+
+3. TestLogin.java
+
+4. TestUser.java	
 
 Work to be completed
 --------------------
